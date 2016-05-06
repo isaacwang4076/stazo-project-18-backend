@@ -2,6 +2,7 @@
 var http = require("http");
 var Firebase = require("firebase");
 var fb = new Firebase("https://stazo-project-18.firebaseio.com/");
+
 http.createServer(function (request, response) {
 	// Send the HTTP header
 	// HTTP Status: 200: OK
