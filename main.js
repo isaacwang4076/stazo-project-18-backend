@@ -1,7 +1,7 @@
 /* Hello, World! program in node.js */
 var http = require("http");
-var Firebase = require("firebase");
-var fb = new Firebase("https://stazo-project-18.firebaseio.com/");
+//var Firebase = require("firebase");
+//var fb = new Firebase("https://stazo-project-18.firebaseio.com/");
 
 http.createServer(function (request, response) {
 	// Send the HTTP header
@@ -19,7 +19,7 @@ function callEveryHour() {
 	    setInterval(deleteEvents, 1000 * 60 * 60);
 }
 
-function deleteEvents() {
+/*function deleteEvents() {
 	fb.child("Events").once("value", function(snapshot) {
 		snapshot.forEach(function(childSnapshot) {
 			if (childSnapshot.child("startTime").val() == 1111) {
@@ -27,5 +27,5 @@ function deleteEvents() {
 			}
 		});
 	});
-}
+}*/
 
