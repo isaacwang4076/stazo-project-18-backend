@@ -1,0 +1,25 @@
+{
+  "name": "stazo-project-18-backend",
+  "version": "1.0.0",
+  "description": "Backend for stazo-project-18",
+  "main": "main.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacwang4076/stazo-project-18-backend.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "engines": {
+	  "node": "4.4.4"
+  },
+  "author": "isaacwang4076",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacwang4076/stazo-project-18-backend/issues"
+  },
+  "homepage": "https://github.com/isaacwang4076/stazo-project-18-backend#readme"
+}

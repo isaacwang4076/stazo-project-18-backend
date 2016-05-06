@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'package.json',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose install initial load of /Users/isaacwang/stazo-project-18-backend/package.json
+5 verbose readDependencies loading dependencies from /Users/isaacwang/stazo-project-18-backend/package.json
+6 silly cache add args [ 'package.json', null ]
+7 verbose cache add spec package.json
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'package.json',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: 'package.json',
+8 silly cache add   spec: '/Users/isaacwang/stazo-project-18-backend/package.json',
+8 silly cache add   type: 'local' }
+9 silly addLocalTarball shasum (computed) 572ce5d4e673f32d70d2fc109df1ebe3fc25eac9
+10 verbose addTmpTarball /Users/isaacwang/stazo-project-18-backend/package.json not in flight; adding
+11 verbose correctMkdir /Users/isaacwang/.npm correctMkdir not in flight; initializing
+12 verbose addTmpTarball validating metadata from /Users/isaacwang/stazo-project-18-backend/package.json
+13 verbose tar unpack /Users/isaacwang/stazo-project-18-backend/package.json
+14 verbose tar unpacking to /var/folders/hz/ssswgng56bzdh1znqp08nh5m0000gn/T/npm-3399-a29c1236/unpack-e4d5318fe2e3
+15 silly gentlyRm /var/folders/hz/ssswgng56bzdh1znqp08nh5m0000gn/T/npm-3399-a29c1236/unpack-e4d5318fe2e3 is being purged
+16 verbose gentlyRm don't care about contents; nuking /var/folders/hz/ssswgng56bzdh1znqp08nh5m0000gn/T/npm-3399-a29c1236/unpack-e4d5318fe2e3
+17 silly gunzTarPerm modes [ '755', '644' ]
+18 error not a package /Users/isaacwang/stazo-project-18-backend/package.json
+19 error addLocal Could not install /Users/isaacwang/stazo-project-18-backend/package.json
+20 verbose stack Error: ENOENT: no such file or directory, open '/var/folders/hz/ssswgng56bzdh1znqp08nh5m0000gn/T/npm-3399-a29c1236/unpack-e4d5318fe2e3/package.json'
+20 verbose stack     at Error (native)
+21 verbose cwd /Users/isaacwang/stazo-project-18-backend
+22 error Darwin 14.5.0
+23 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "package.json" "--save"
+24 error node v4.4.4
+25 error npm  v2.15.1
+26 error path /var/folders/hz/ssswgng56bzdh1znqp08nh5m0000gn/T/npm-3399-a29c1236/unpack-e4d5318fe2e3/package.json
+27 error code ENOENT
+28 error errno -2
+29 error syscall open
+30 error enoent ENOENT: no such file or directory, open '/var/folders/hz/ssswgng56bzdh1znqp08nh5m0000gn/T/npm-3399-a29c1236/unpack-e4d5318fe2e3/package.json'
+30 error enoent This is most likely not a problem with npm itself
+30 error enoent and is related to npm not being able to find a file.
+31 verbose exit [ -2, true ]
